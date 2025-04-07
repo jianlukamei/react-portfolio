@@ -1,0 +1,45 @@
+ /* skill-start */
+ .progress {
+    height: 25px;
+    border-radius: 5px;
+  }
+  .skill:hover{
+    border-bottom: solid 2px rgb(69, 79, 221);
+    width: 170px;
+    
+  }
+  .apexchart_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.apexcharts-title-text{
+  display: none;
+}
+
+  .apexcharts-legend-text {
+    position: relative;
+    color: white !important;
+  }
+  .skill-div{
+    margin: 0px 100px 0px 100px;
+  }
+
+  .apexcharts-datalabels{
+    display: none;
+  }
+
+
+  @media  (max-width:360px) {
+    .progress-title{
+      font-size: 15px !important;
+    }
+    .skill-div{
+      margin: 0;
+    }
+  
+  } 
+  
+  /* skill-end */
+  

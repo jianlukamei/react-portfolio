@@ -1,0 +1,35 @@
+ /* hero-start */
+ .Frontend, .Contact {
+  background: linear-gradient(0deg, rgb(4 28 112) 5%, rgb(10 30 224 / 87%) 85%);
+  background-clip: text;
+color: transparent;
+}
+
+  .Jianlu{
+    background: linear-gradient(0deg, rgba(62,174,207,1) 24%, rgba(51,44,189,1) 85%);
+    background-clip: text;
+    color: transparent;
+  }
+  .Frontend{
+    margin-top: 65px;
+  }
+  .hero-sectionimage{
+    object-fit: contain;
+  }
+  .hero-img{
+ margin-inline-start: 90px;
+  }
+  @media  (max-width:360px) {
+    .hero-section{
+  padding-top: 0 !important;
+    }
+  }
+
+  @media  (max-width:768px) {
+    .hero-img{
+      margin-inline-start: 50px;
+      height: 200px;
+       }
+  }
+  /* hero-end */
+  

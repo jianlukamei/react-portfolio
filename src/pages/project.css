@@ -1,0 +1,39 @@
+ 
+  /* project-start */
+  .project:hover{
+    border-bottom: solid 2px rgb(69, 79, 221);
+    width: 200px;
+  }
+  .btn-primary{
+    background: rgb(35,36,37);
+    background: linear-gradient(90deg, rgba(35,36,37,1) 12%, rgba(38,53,213,1) 51%);
+  }
+  .btn-primary:hover {
+    background: rgb(38,53,213);
+    background: linear-gradient(90deg, rgba(38,53,213,1) 14%, rgba(35,36,37,1) 90%);
+  }
+  
+  .custom-card {
+    height: 300px; /* Fixed card height */
+    overflow: hidden;
+  }
+   
+  .custom-img {
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+  }
+  .custom-img:hover {
+   transform: scale(1.4) rotate(25deg);
+  }
+  .modal{
+    margin-top: 230px;
+  }
+  
+  @media  (max-width:360px) {
+    .modal{
+      margin-top: 150px;
+    }
+  } 
+  /* project-end */
+  
